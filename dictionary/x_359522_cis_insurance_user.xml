@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="Insurance user" max_length="40" name="x_359522_cis_insurance_user" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Driver's license number" max_length="40" name="driver_s_license_number" type="string"/>
+    </element>
+</database>
