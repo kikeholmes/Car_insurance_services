@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_359522_cis_car_insurance_service">x_359522_cis_car_insurance_service</category>
+        <maximum_digits>7</maximum_digits>
+        <number>0</number>
+        <prefix>CIS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 23:23:50</sys_created_on>
+        <sys_id>23e1c23637423300205303a973990e00</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CIS</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_number_23e1c23637423300205303a973990e00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 23:24:04</sys_updated_on>
+    </sys_number>
+</record_update>
