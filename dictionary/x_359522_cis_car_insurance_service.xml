@@ -5,5 +5,7 @@
         <element choice="1" label="Service type" mandatory="true" max_length="40" name="service_type" type="choice">
             <choice/>
         </element>
+        <element label="Third party affected" max_length="40" name="third_party_affected" type="boolean"/>
+        <element label="Includes vehicle loan" max_length="40" name="vehicle_loan" type="boolean"/>
     </element>
 </database>
