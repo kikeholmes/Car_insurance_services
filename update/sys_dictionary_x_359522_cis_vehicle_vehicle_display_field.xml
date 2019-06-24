@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="serviced_vehicle" table="x_359522_cis_car_insurance_service">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="vehicle_display_field" table="x_359522_cis_vehicle">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Serviced vehicle</column_label>
+        <column_label>Vehicle display field</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,29 +22,29 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>serviced_vehicle</element>
+        <element>vehicle_display_field</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>32</max_length>
-        <name>x_359522_cis_car_insurance_service</name>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>300</max_length>
+        <name>x_359522_cis_vehicle</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
-        <reference display_value="" name="x_359522_cis_vehicle">x_359522_cis_vehicle</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>javascript:getValidServicedVehicle(current.insurancer_user);</reference_qual>
+        <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
@@ -52,22 +52,22 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-18 23:35:21</sys_created_on>
-        <sys_id>b4b2023637423300205303a973990ef6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Serviced vehicle</sys_name>
+        <sys_created_on>2019-06-24 15:56:58</sys_created_on>
+        <sys_id>f2d41fa837d67300205303a973990ea4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Vehicle display field</sys_name>
         <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
-        <sys_update_name>sys_dictionary_x_359522_cis_car_insurance_service_serviced_vehicle</sys_update_name>
+        <sys_update_name>sys_dictionary_x_359522_cis_vehicle_vehicle_display_field</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-24 16:13:19</sys_updated_on>
+        <sys_updated_on>2019-06-24 16:12:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <widget/>
         <write_roles/>
