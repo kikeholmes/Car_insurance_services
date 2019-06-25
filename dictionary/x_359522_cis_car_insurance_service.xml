@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Car Insurance Service" max_length="40" name="x_359522_cis_car_insurance_service" type="collection">
+    <element audit="true" extends="task" label="Car Insurance Service" max_length="40" name="x_359522_cis_car_insurance_service" sizeclass="1" type="collection">
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Insurance User" mandatory="true" max_length="32" name="insurancer_user" reference="x_359522_cis_insurance_user" type="reference" use_dynamic_default="true"/>
         <element label="Serviced vehicle" mandatory="true" max_length="32" name="serviced_vehicle" reference="x_359522_cis_vehicle" reference_qual="javascript:getValidServicedVehicle(current.insurancer_user);" type="reference" use_reference_qualifier="advanced"/>
         <element choice="1" label="Service type" mandatory="true" max_length="40" name="service_type" type="choice">
