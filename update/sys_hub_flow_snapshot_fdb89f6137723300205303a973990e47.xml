@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Set Service center coodinates</description>
+        <internal_name>set_service_center_coodinates</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.country","label":"Trigger➛Service Center Record➛Country","reference":"","reference_display":"Country","type":"string","base_type":"string","parent_table_name":"x_359522_cis_service_center","column_name":"country"},{"name":"Created or Updated_1.current.zip","label":"Trigger➛Service Center Record➛Zip / Postal Code","reference":"","reference_display":"Zip / Postal Code","type":"string","base_type":"string","parent_table_name":"x_359522_cis_service_center","column_name":"zip"},{"name":"Created or Updated_1.current.state","label":"Trigger➛Service Center Record➛State / Province","reference":"","reference_display":"State / Province","type":"string","base_type":"string","parent_table_name":"x_359522_cis_service_center","column_name":"state"},{"name":"Created or Updated_1.current.street","label":"Trigger➛Service Center Record➛Street","reference":"","reference_display":"Street","type":"multi_two_lines","base_type":"multi_two_lines","parent_table_name":"x_359522_cis_service_center","column_name":"street"},{"name":"Created or Updated_1.current.city","label":"Trigger➛Service Center Record➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"x_359522_cis_service_center","column_name":"city"}]</label_cache>
+        <master>true</master>
+        <name>Set Service center coodinates</name>
+        <outputs/>
+        <parent_flow display_value="Set Service center coodinates">c5c7dbed37323300205303a973990e30</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-22 15:17:41</sys_created_on>
+        <sys_id>fdb89f6137723300205303a973990e47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Service center coodinates</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_fdb89f6137723300205303a973990e47</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-22 15:17:41</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=fdb89f6137723300205303a973990e47"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fdb89f6137723300205303a973990e47"/>
+</record_update>

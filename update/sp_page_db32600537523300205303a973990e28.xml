@@ -10,7 +10,7 @@ section.page, main.body {&#13;
 </css>
         <draft>false</draft>
         <dynamic_title_structure/>
-        <id>copy_of_index_1</id>
+        <id>cis_index</id>
         <internal>false</internal>
         <public>false</public>
         <roles/>
@@ -19,15 +19,15 @@ section.page, main.body {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-25 16:12:05</sys_created_on>
         <sys_id>db32600537523300205303a973990e28</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>copy_of_index_1</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>cis_index</sys_name>
         <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
         <sys_update_name>sp_page_db32600537523300205303a973990e28</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-25 16:12:05</sys_updated_on>
-        <title>Copy of Service Portal (1)</title>
+        <sys_updated_on>2019-07-01 19:59:14</sys_updated_on>
+        <title>Serivce portal CIS</title>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=db32600537523300205303a973990e28"/>
 </record_update>

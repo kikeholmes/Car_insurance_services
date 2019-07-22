@@ -22,7 +22,7 @@ $btn-default-bg:#fff;
 $text-muted:#666666;
 $grid-gutter-width: 15px !default;</css_variables>
         <default>false</default>
-        <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
+        <homepage display_value="cis_index">db32600537523300205303a973990e28</homepage>
         <icon>119fd2795bd56300a9ad49ed5a62bc40</icon>
         <kb_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base>
         <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
@@ -46,20 +46,20 @@ $grid-gutter-width: 15px !default;</css_variables>
         <sc_catalog_page/>
         <sc_category_page/>
         <sp_chat_queue/>
-        <sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu>
+        <sp_rectangle_menu display_value="SP Header Menu CIS">eca2322537523300205303a973990e48</sp_rectangle_menu>
         <sqanda_knowledge_base/>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-25 15:40:56</sys_created_on>
         <sys_id>cf1b9c8d37123300205303a973990e86</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Car Insurance Services</sys_name>
         <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
         <sys_update_name>sp_portal_cf1b9c8d37123300205303a973990e86</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-25 16:01:13</sys_updated_on>
+        <sys_updated_on>2019-06-27 16:00:47</sys_updated_on>
         <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
         <title>Car Insurance Services</title>
         <url_suffix>cis</url_suffix>
