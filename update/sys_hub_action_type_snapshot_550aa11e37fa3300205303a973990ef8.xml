@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>copy_of_copy_of_copy_of_get_location_from_cordinates_hugo2</internal_name>
+        <label_cache>[{"name":"{{action.longitude}}","label":"action➛Latlng","type":"action","ref":""},{"name":"{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].}}","label":"step➛Consume Re➛","type":"step","ref":""},{"name":"{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].a}}","label":"step➛Consume Re➛a","type":"step","ref":""},{"name":"{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].ad}}","label":"step➛Consume Re➛ad","type":"step","ref":""},{"name":"{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].address}}","label":"step➛Consume Re➛address","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Copy of Copy of Copy of Get Location from Cordinates Hugo2</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Copy of Copy of Copy of Get Location from Cordinates Hugo2">21e6ad5a37fa3300205303a973990e05</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 15:09:31</sys_created_on>
+        <sys_id>550aa11e37fa3300205303a973990ef8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Copy of Copy of Get Location from Cordinates Hugo2</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_550aa11e37fa3300205303a973990ef8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-24 15:09:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=550aa11e37fa3300205303a973990ef8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=550aa11e37fa3300205303a973990ef8"/>
+    <sys_element_mapping action="delete_multiple" query="id=550aa11e37fa3300205303a973990ef8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zip_code</field>
+        <id>550aa11e37fa3300205303a973990ef8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 15:09:31</sys_created_on>
+        <sys_id>610ae11e37fa3300205303a973990e1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-24 15:09:31</sys_updated_on>
+        <table>var__m_sys_hub_action_output_550aa11e37fa3300205303a973990ef8</table>
+        <value>{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].address}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>With this flow the addres of a car insurance services is calculated</description>
+        <internal_name>set_car_insurance_service_addres</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger➛Car Insurance Service Record","reference":"x_359522_cis_car_insurance_service","reference_display":"Car Insurance Service","type":"reference","base_type":"reference"},{"name":"66517176-70b7-477e-a430-37c7616d125d.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"66517176-70b7-477e-a430-37c7616d125d.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.geolocation","label":"Trigger➛Car Insurance Service Record➛Geolocation","reference":"","reference_display":"Geolocation","type":"string","base_type":"string","parent_table_name":"x_359522_cis_car_insurance_service","column_name":"geolocation"},{"name":"cc8d844d-19a9-4534-91ff-068306918a5f.zip_code","label":"1➛Address","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>Set Car Insurance service Addres</name>
+        <outputs/>
+        <parent_flow display_value="Set Car Insurance service Addres">1bdbe55e37fa3300205303a973990ece</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 15:21:42</sys_created_on>
+        <sys_id>0cdce19e37fa3300205303a973990e41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Car Insurance service Addres</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_0cdce19e37fa3300205303a973990e41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-24 15:21:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0cdce19e37fa3300205303a973990e41"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0cdce19e37fa3300205303a973990e41"/>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Set Service center coodinates</description>
+        <internal_name>set_service_center_adress</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.country","label":"Trigger➛Service Center Record➛Country","reference":"","reference_display":"Country","type":"string","base_type":"string","parent_table_name":"x_359522_cis_service_center","column_name":"country"},{"name":"Created or Updated_1.current.zip","label":"Trigger➛Service Center Record➛Zip / Postal Code","reference":"","reference_display":"Zip / Postal Code","type":"string","base_type":"string","parent_table_name":"x_359522_cis_service_center","column_name":"zip"},{"name":"Created or Updated_1.current.state","label":"Trigger➛Service Center Record➛State / Province","reference":"","reference_display":"State / Province","type":"string","base_type":"string","parent_table_name":"x_359522_cis_service_center","column_name":"state"},{"name":"Created or Updated_1.current.street","label":"Trigger➛Service Center Record➛Street","reference":"","reference_display":"Street","type":"multi_two_lines","base_type":"multi_two_lines","parent_table_name":"x_359522_cis_service_center","column_name":"street"},{"name":"Created or Updated_1.current.city","label":"Trigger➛Service Center Record➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"x_359522_cis_service_center","column_name":"city"},{"name":"d4134203-7708-42f1-a9b9-bf5eac667b32.response_body","label":"1➛Response Body","reference_display":"Response Body","type":"string","base_type":"string"},{"name":"b0f2087a-d976-4c8e-96e2-93e5d452e389.response_body","label":"1➛Lattituded","type":"string","base_type":"string"},{"name":"b0f2087a-d976-4c8e-96e2-93e5d452e389.longitude","label":"1➛Longitude","type":"string","base_type":"string"},{"name":"15c4c8cf-79fe-4671-8c28-d6fe63b54f59.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"15c4c8cf-79fe-4671-8c28-d6fe63b54f59.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.current","label":"Trigger➛Service Center Record","reference":"x_359522_cis_service_center","reference_display":"Service Center","type":"reference","base_type":"reference"},{"name":"892565f8-b4c6-4739-8a10-0555590c68bf.number","label":"1➛Number","reference_display":"Number","type":"string","base_type":"string"},{"name":"892565f8-b4c6-4739-8a10-0555590c68bf.street","label":"1➛Street","reference_display":"Street","type":"string","base_type":"string"},{"name":"892565f8-b4c6-4739-8a10-0555590c68bf.colonia","label":"1➛Colonia","reference_display":"Colonia","type":"string","base_type":"string"},{"name":"892565f8-b4c6-4739-8a10-0555590c68bf.municipio","label":"1➛Municipio","reference_display":"Municipio","type":"string","base_type":"string"},{"name":"892565f8-b4c6-4739-8a10-0555590c68bf.city","label":"1➛City","reference_display":"City","type":"string","base_type":"string"},{"name":"892565f8-b4c6-4739-8a10-0555590c68bf.country","label":"1➛Country","reference_display":"Country","type":"string","base_type":"string"},{"name":"892565f8-b4c6-4739-8a10-0555590c68bf.zip_code","label":"1➛Zip Code","reference_display":"Zip Code","type":"string","base_type":"string"},{"name":"Created or Updated_1.current.latitude","label":"Trigger➛Service Center Record➛Latitude","reference":"","reference_display":"Latitude","type":"float","base_type":"float","parent_table_name":"x_359522_cis_service_center","column_name":"latitude"},{"name":"Created or Updated_1.current.longitude","label":"Trigger➛Service Center Record➛Longitude","reference":"","reference_display":"Longitude","type":"float","base_type":"float","parent_table_name":"x_359522_cis_service_center","column_name":"longitude"}]</label_cache>
+        <master>true</master>
+        <name>Set Service center adress</name>
+        <outputs/>
+        <parent_flow display_value="Set Service center adress">4d68a54e37723300205303a973990e7f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 20:29:52</sys_created_on>
+        <sys_id>94c9298e37723300205303a973990e6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Service center adress</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_94c9298e37723300205303a973990e6a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 20:29:52</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=94c9298e37723300205303a973990e6a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=94c9298e37723300205303a973990e6a"/>
+</record_update>

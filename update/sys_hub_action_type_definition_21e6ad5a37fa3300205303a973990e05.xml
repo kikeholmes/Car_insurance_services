@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>In flow annotation...test</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>bec6219a37fa3300205303a973990e7f</copied_from>
+        <copied_from_name>Copy of Copy of Get Location fro</copied_from_name>
+        <description>Descritpion... test</description>
+        <internal_name>copy_of_copy_of_copy_of_get_location_from_cordinates_hugo2</internal_name>
+        <label_cache>[{"name":"{{action.longitude}}","label":"action➛Latlng","type":"action","ref":""},{"name":"{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].}}","label":"step➛Consume Re➛","type":"step","ref":""},{"name":"{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].a}}","label":"step➛Consume Re➛a","type":"step","ref":""},{"name":"{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].ad}}","label":"step➛Consume Re➛ad","type":"step","ref":""},{"name":"{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].address}}","label":"step➛Consume Re➛address","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>dd2a251e37fa3300205303a973990eb3</latest_snapshot>
+        <master_snapshot>a52a251e37fa3300205303a973990ece</master_snapshot>
+        <name>Copy of Copy of Copy of Get Location from Cordinates Hugo2</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 14:55:52</sys_created_on>
+        <sys_id>21e6ad5a37fa3300205303a973990e05</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Copy of Copy of Copy of Get Location from Cordinates Hugo2</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_21e6ad5a37fa3300205303a973990e05</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-24 15:10:05</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=21e6ad5a37fa3300205303a973990e05"/>
+    <sys_variable_value action="delete_multiple" query="document_key=21e6ad5a37fa3300205303a973990e05"/>
+    <sys_element_mapping action="delete_multiple" query="id=21e6ad5a37fa3300205303a973990e05"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>city</field>
+        <id>21e6ad5a37fa3300205303a973990e05</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 14:55:55</sys_created_on>
+        <sys_id>5ae6e19a37fa3300205303a973990e46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-24 14:55:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_21e6ad5a37fa3300205303a973990e05</table>
+        <value>{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].city}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>colonia</field>
+        <id>21e6ad5a37fa3300205303a973990e05</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 14:55:55</sys_created_on>
+        <sys_id>56e6e19a37fa3300205303a973990e47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-24 14:55:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_21e6ad5a37fa3300205303a973990e05</table>
+        <value>{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].colonia}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>country</field>
+        <id>21e6ad5a37fa3300205303a973990e05</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 14:55:55</sys_created_on>
+        <sys_id>d2e6e19a37fa3300205303a973990e46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-24 14:55:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_21e6ad5a37fa3300205303a973990e05</table>
+        <value>{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].country}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>municipio</field>
+        <id>21e6ad5a37fa3300205303a973990e05</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 14:55:55</sys_created_on>
+        <sys_id>1ee6e19a37fa3300205303a973990e46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-24 14:55:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_21e6ad5a37fa3300205303a973990e05</table>
+        <value>{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].municipio}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <id>21e6ad5a37fa3300205303a973990e05</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 14:55:55</sys_created_on>
+        <sys_id>96e6e19a37fa3300205303a973990e46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-24 14:55:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_21e6ad5a37fa3300205303a973990e05</table>
+        <value>{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>street</field>
+        <id>21e6ad5a37fa3300205303a973990e05</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 14:55:55</sys_created_on>
+        <sys_id>dee6e19a37fa3300205303a973990e46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-24 14:55:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_21e6ad5a37fa3300205303a973990e05</table>
+        <value>{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].street}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zip_code</field>
+        <id>21e6ad5a37fa3300205303a973990e05</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 14:55:55</sys_created_on>
+        <sys_id>92e6e19a37fa3300205303a973990e47</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-24 15:09:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_21e6ad5a37fa3300205303a973990e05</table>
+        <value>{{step[dfee8c21-8b0f-4d4c-bb2c-52e323b76cc2].address}}</value>
+    </sys_element_mapping>
+</record_update>
