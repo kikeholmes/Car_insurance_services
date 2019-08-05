@@ -32,12 +32,12 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>service_type</name>
-        <order>200</order>
+        <order>150</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>what type of service do you need?</question_text>
@@ -59,14 +59,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-01 23:47:54</sys_created_on>
         <sys_id>4ec249cb37923300205303a973990efa</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>what type of service do you need?</sys_name>
         <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
         <sys_update_name>item_option_new_4ec249cb37923300205303a973990efa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-02 00:01:43</sys_updated_on>
+        <sys_updated_on>2019-08-04 22:19:27</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

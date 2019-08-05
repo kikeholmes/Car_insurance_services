@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image>f0ac837c4ffef2407e2cfa218110c71f.iix?t=m</background_image>
+        <background_style>cover</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>home-back</class_name>
+        <container_class_name/>
+        <name>CIS Service Portal - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="cis_index_v2">743530d937cf3300205303a973990eda</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 19:00:30</sys_created_on>
+        <sys_id>f03530d937cf3300205303a973990ede</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CIS Service Portal - Container 1</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sp_container_f03530d937cf3300205303a973990ede</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:01:11</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

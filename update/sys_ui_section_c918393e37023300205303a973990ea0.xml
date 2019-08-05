@@ -4,13 +4,13 @@
             <element>insurance_policy</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 23:07:06</sys_created_on>
-            <sys_id>561ef57237423300205303a973990e4b</sys_id>
+            <sys_created_on>2019-08-04 19:38:55</sys_created_on>
+            <sys_id>432197b1374bb300205303a973990e8b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_359522_cis_vehicle" sys_domain="global" view="Default view">c918393e37023300205303a973990ea0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 23:07:06</sys_updated_on>
+            <sys_updated_on>2019-08-04 19:38:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>insurance_policy.insurance</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 23:07:06</sys_created_on>
-            <sys_id>d61ef57237423300205303a973990e4b</sys_id>
+            <sys_created_on>2019-08-04 19:38:55</sys_created_on>
+            <sys_id>0f2197b1374bb300205303a973990e8b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_359522_cis_vehicle" sys_domain="global" view="Default view">c918393e37023300205303a973990ea0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 23:07:06</sys_updated_on>
+            <sys_updated_on>2019-08-04 19:38:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>serial_number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 23:07:06</sys_created_on>
-            <sys_id>5a1ef57237423300205303a973990e4b</sys_id>
+            <sys_created_on>2019-08-04 19:38:55</sys_created_on>
+            <sys_id>832197b1374bb300205303a973990e8c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_359522_cis_vehicle" sys_domain="global" view="Default view">c918393e37023300205303a973990ea0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 23:07:06</sys_updated_on>
+            <sys_updated_on>2019-08-04 19:38:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>vehicle_id</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 23:07:06</sys_created_on>
-            <sys_id>da1ef57237423300205303a973990e4b</sys_id>
+            <sys_created_on>2019-08-04 19:38:55</sys_created_on>
+            <sys_id>0b2197b1374bb300205303a973990e8c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_359522_cis_vehicle" sys_domain="global" view="Default view">c918393e37023300205303a973990ea0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 23:07:06</sys_updated_on>
+            <sys_updated_on>2019-08-04 19:38:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 23:07:06</sys_created_on>
-            <sys_id>5e1ef57237423300205303a973990e4b</sys_id>
+            <sys_created_on>2019-08-04 19:38:55</sys_created_on>
+            <sys_id>8f2197b1374bb300205303a973990e8c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_359522_cis_vehicle" sys_domain="global" view="Default view">c918393e37023300205303a973990ea0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 23:07:06</sys_updated_on>
+            <sys_updated_on>2019-08-04 19:38:55</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>brand</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 23:07:06</sys_created_on>
-            <sys_id>de1ef57237423300205303a973990e4b</sys_id>
+            <sys_created_on>2019-08-04 19:38:55</sys_created_on>
+            <sys_id>072197b1374bb300205303a973990e8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_359522_cis_vehicle" sys_domain="global" view="Default view">c918393e37023300205303a973990ea0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 23:07:06</sys_updated_on>
+            <sys_updated_on>2019-08-04 19:38:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>model</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 23:07:06</sys_created_on>
-            <sys_id>521ef57237423300205303a973990e4c</sys_id>
+            <sys_created_on>2019-08-04 19:38:55</sys_created_on>
+            <sys_id>8b2197b1374bb300205303a973990e8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_359522_cis_vehicle" sys_domain="global" view="Default view">c918393e37023300205303a973990ea0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 23:07:06</sys_updated_on>
+            <sys_updated_on>2019-08-04 19:38:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>year</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 23:07:06</sys_created_on>
-            <sys_id>d21ef57237423300205303a973990e4c</sys_id>
+            <sys_created_on>2019-08-04 19:38:55</sys_created_on>
+            <sys_id>032197b1374bb300205303a973990e8e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_359522_cis_vehicle" sys_domain="global" view="Default view">c918393e37023300205303a973990ea0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 23:07:06</sys_updated_on>
+            <sys_updated_on>2019-08-04 19:38:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,27 +116,13 @@
             <element>invoice_value</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 23:07:06</sys_created_on>
-            <sys_id>561ef57237423300205303a973990e4c</sys_id>
+            <sys_created_on>2019-08-04 19:38:55</sys_created_on>
+            <sys_id>872197b1374bb300205303a973990e8e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_359522_cis_vehicle" sys_domain="global" view="Default view">c918393e37023300205303a973990ea0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 23:07:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>vehicle_display_field</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-24 15:56:58</sys_created_on>
-            <sys_id>c03517a837d67300205303a973990e86</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_359522_cis_vehicle" sys_domain="global" view="Default view">c918393e37023300205303a973990ea0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-24 15:56:58</sys_updated_on>
+            <sys_updated_on>2019-08-04 19:38:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

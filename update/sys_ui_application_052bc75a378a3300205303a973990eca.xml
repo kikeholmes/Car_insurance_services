@@ -4,7 +4,7 @@
         <hint/>
         <name>Insurance user</name>
         <order/>
-        <roles>x_359522_cis.insurance_user_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-17 15:26:45</sys_created_on>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>Mexico city</center_address>
+        <center_latitude>19.432608</center_latitude>
+        <center_longitude>-99.133209</center_longitude>
+        <controls_size>large</controls_size>
+        <initial_zoom>10</initial_zoom>
+        <name>x_359522_cis_Active Services Map</name>
+        <overview>true</overview>
+        <refresh_on_zoom>true</refresh_on_zoom>
+        <script><![CDATA[//el presente mapa muestra los servicios de cara insurance serivces activos
+
+var cis = new GlideRecord("x_359522_cis_car_insurance_service");
+cis.addActiveQuery();
+cis.query();
+while (cis.next()) {
+	
+   var item = map.addItem(cis);
+   item.latitude = cis.getValue('latitude');
+   item.longitude = cis.getValue('longitude');
+   item.dialog_title = cis.getDisplayValue();
+   item.icon = "http://maps.google.com/mapfiles/kml/pal3/icon51.png";
+   item.icon_width = "20";
+   item.icon_height = "20";
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>Active Services Map</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 18:23:37</sys_created_on>
+        <sys_id>a4cc609137cf3300205303a973990e33</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>x_359522_cis_Active Services Map</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>cmn_map_page_a4cc609137cf3300205303a973990e33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-04 19:53:08</sys_updated_on>
+        <type>normal</type>
+        <type_selection>buttons</type_selection>
+    </cmn_map_page>
+</record_update>

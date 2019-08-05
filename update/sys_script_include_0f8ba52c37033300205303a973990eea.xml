@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_359522_cis.getAdressFromCoordinates</api_name>
+        <client_callable>true</client_callable>
+        <description>Por medio de script incluide (clien callable) se obtiene la direcccion relativa a unas coordenadas geograficas, se usa la accion "getAdressFromCoordinates" del flow designer</description>
+        <name>getAdressFromCoordinates</name>
+        <script><![CDATA[var getAdressFromCoordinates = Class.create();
+getAdressFromCoordinates.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getAddress: function() {
+		
+		var latlng = this.getParameter('sysparm_latlng');
+		//seteamos la entrada de la accion
+		var inputs = {};
+		inputs['longitude'] = latlng; // String 
+
+		//ejecutamos la accion sincronamente
+		var outputs = sn_fd.FlowAPI.executeAction('x_359522_cis.copy_of_copy_of_copy_of_get_location_from_cordinates_hugo2', inputs);
+
+		// guardamos la salida de la accion " get Adress From Coordinates" en variable
+		var address = outputs['zip_code']; // String
+		
+		//salida del script include
+		var result =this.newItem('result');
+		result.setAttribute("address",address);
+		
+		
+	},
+	
+	
+    type: 'getAdressFromCoordinates'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-31 15:16:01</sys_created_on>
+        <sys_id>0f8ba52c37033300205303a973990eea</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>getAdressFromCoordinates</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_script_include_0f8ba52c37033300205303a973990eea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-31 15:59:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

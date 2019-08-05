@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get cordinates from address">20f0be3437033300205303a973990e55</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>20f0be3437033300205303a973990e55</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Set Car Insurance service coordinates and service center">1bdbe55e37fa3300205303a973990ece</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 14:51:10</sys_created_on>
+        <sys_id>7e82fe7437033300205303a973990e32</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_7e82fe7437033300205303a973990e32</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:24:59</sys_updated_on>
+        <ui_id>7deb82c7-78c5-4289-b579-46055df15108</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7e82fe7437033300205303a973990e32"/>
+    <sys_element_mapping action="delete_multiple" query="id=7e82fe7437033300205303a973990e32"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>address</field>
+        <id>7e82fe7437033300205303a973990e32</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 14:51:11</sys_created_on>
+        <sys_id>3682fe7437033300205303a973990e38</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_20f0be3437033300205303a973990e55</table>
+        <value>{{Created_1.current.addres}}</value>
+    </sys_element_mapping>
+</record_update>

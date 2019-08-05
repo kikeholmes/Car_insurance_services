@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Set Car Insurance service coordinates and service center">1bdbe55e37fa3300205303a973990ece</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:43:59</sys_created_on>
+        <sys_id>40b3e8d9378f3300205303a973990e6a</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_40b3e8d9378f3300205303a973990e6a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-08-02 19:24:59</sys_updated_on>
+        <ui_id>a2f89122-4e06-40b1-884c-797b2ae9047f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=40b3e8d9378f3300205303a973990e6a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>40b3e8d9378f3300205303a973990e6a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:44:00</sys_created_on>
+        <sys_id>4cb3e8d9378f3300205303a973990e70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:44:00</sys_updated_on>
+        <value>x_359522_cis_car_insurance_service</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>40b3e8d9378f3300205303a973990e6a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:44:00</sys_created_on>
+        <sys_id>88b3e8d9378f3300205303a973990e70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:44:00</sys_updated_on>
+        <value>comments=Thank you for using  our car insurance service, we are assigning you yo a service center, hold on.</value>
+        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>40b3e8d9378f3300205303a973990e6a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:50:48</sys_created_on>
+        <sys_id>bf35605d378f3300205303a973990ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:50:48</sys_updated_on>
+        <value>x_359522_cis_car_insurance_service</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>40b3e8d9378f3300205303a973990e6a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:50:48</sys_created_on>
+        <sys_id>fb35605d378f3300205303a973990ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:50:48</sys_updated_on>
+        <value>comments=Thank you for using  our car insurance service, we are assigning you yo a service center, hold on.</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=40b3e8d9378f3300205303a973990e6a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>40b3e8d9378f3300205303a973990e6a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:44:00</sys_created_on>
+        <sys_id>44b3e8d9378f3300205303a973990e70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>40b3e8d9378f3300205303a973990e6a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:50:48</sys_created_on>
+        <sys_id>b735605d378f3300205303a973990ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:50:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>40b3e8d9378f3300205303a973990e6a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:44:00</sys_created_on>
+        <sys_id>0cb3e8d9378f3300205303a973990e6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>40b3e8d9378f3300205303a973990e6a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:50:48</sys_created_on>
+        <sys_id>f335605d378f3300205303a973990ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:50:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>40b3e8d9378f3300205303a973990e6a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:44:00</sys_created_on>
+        <sys_id>08b3e8d9378f3300205303a973990e70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>40b3e8d9378f3300205303a973990e6a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:50:48</sys_created_on>
+        <sys_id>7b35605d378f3300205303a973990ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:50:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

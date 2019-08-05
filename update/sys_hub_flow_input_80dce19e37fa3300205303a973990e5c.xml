@@ -38,7 +38,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Set Car Insurance service Addres">0cdce19e37fa3300205303a973990e41</model>
+        <model display_value="Set Car Insurance service coordinates and service center">0cdce19e37fa3300205303a973990e41</model>
         <model_id>0cdce19e37fa3300205303a973990e41</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_0cdce19e37fa3300205303a973990e41</name>

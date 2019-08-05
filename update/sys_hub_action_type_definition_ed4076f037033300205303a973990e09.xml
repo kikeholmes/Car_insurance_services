@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>6262972d37323300205303a973990e6d</copied_from>
+        <copied_from_name>Get cordinates from address (seg</copied_from_name>
+        <description>Get cordinates from address</description>
+        <internal_name>get_cordinates_from_address</internal_name>
+        <label_cache>[{"name":"{{action.address}}","label":"action➛Address","type":"action","ref":""},{"name":"{{step[32d7fb2e-49d9-49c4-94bb-503908554bb1].}}","label":"step➛Consume Geocoding web service➛","type":"step","ref":""},{"name":"{{step[32d7fb2e-49d9-49c4-94bb-503908554bb1].l}}","label":"step➛Consume Geocoding web service➛l","type":"step","ref":""},{"name":"{{step[32d7fb2e-49d9-49c4-94bb-503908554bb1].la}}","label":"step➛Consume Geocoding web service➛la","type":"step","ref":""},{"name":"{{step[32d7fb2e-49d9-49c4-94bb-503908554bb1].lat}}","label":"step➛Consume Geocoding web service➛lat","type":"step","ref":""},{"name":"{{step[32d7fb2e-49d9-49c4-94bb-503908554bb1].ln}}","label":"step➛Consume Geocoding web service➛ln","type":"step","ref":""},{"name":"{{step[32d7fb2e-49d9-49c4-94bb-503908554bb1].lng}}","label":"step➛Consume Geocoding web service➛lng","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>19280f3837433300205303a973990ee8</latest_snapshot>
+        <master_snapshot>20f0be3437033300205303a973990e55</master_snapshot>
+        <name>Get cordinates from address</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 14:41:15</sys_created_on>
+        <sys_id>ed4076f037033300205303a973990e09</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Get cordinates from address</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_ed4076f037033300205303a973990e09</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-01 16:25:34</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=ed4076f037033300205303a973990e09"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ed4076f037033300205303a973990e09"/>
+    <sys_element_mapping action="delete_multiple" query="id=ed4076f037033300205303a973990e09"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>longitude</field>
+        <id>ed4076f037033300205303a973990e09</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 14:41:17</sys_created_on>
+        <sys_id>8240f63437033300205303a973990e11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-01 14:41:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ed4076f037033300205303a973990e09</table>
+        <value>{{step[32d7fb2e-49d9-49c4-94bb-503908554bb1].lng}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>ed4076f037033300205303a973990e09</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 14:41:17</sys_created_on>
+        <sys_id>ce40f63437033300205303a973990e10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-01 14:41:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ed4076f037033300205303a973990e09</table>
+        <value>{{step[32d7fb2e-49d9-49c4-94bb-503908554bb1].lat}}</value>
+    </sys_element_mapping>
+</record_update>

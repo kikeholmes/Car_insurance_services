@@ -14,7 +14,7 @@
         <name>Get cordinates from address</name>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Get cordinates from address">6262972d37323300205303a973990e6d</parent_action>
+        <parent_action display_value="Get cordinates from address (segmented input)">6262972d37323300205303a973990e6d</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-22 15:24:47</sys_created_on>

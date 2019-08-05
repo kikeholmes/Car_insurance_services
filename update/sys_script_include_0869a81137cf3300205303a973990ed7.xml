@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_359522_cis.getValidServiceCenterGroups</api_name>
+        <client_callable>false</client_callable>
+        <description>Por medio de este script include se entrega una lista (separada por coma) de los grupos de asignacion para un centro de servcio determinado.</description>
+        <name>getValidServiceCenterGroups</name>
+        <script><![CDATA[function getValidServiceCenterGroups(service_center_sysid) {
+    
+    //declaramos una variable para la lista
+    var list = '';
+    
+    //buscamos los registros pertinentes
+    var user_group = new GlideRecord('sys_user_group');
+    user_group.addActiveQuery();
+    user_group.addQuery('u_location', service_center_sysid);
+    user_group.query();
+    
+    //agregamos cada registro encontrado a la lista
+    while(user_group.next()) {
+        list = list + user_group.getUniqueValue();
+        
+        if(user_group.hasNext()) {
+            list = list + ',';
+        }
+    }
+    
+    //definimos la salida de la función
+    return 'sys_idIN' + list;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 18:14:10</sys_created_on>
+        <sys_id>0869a81137cf3300205303a973990ed7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getValidServiceCenterGroups</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_script_include_0869a81137cf3300205303a973990ed7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 18:14:10</sys_updated_on>
+    </sys_script_include>
+</record_update>
