@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation>Get CIS URL</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Other">cf0330e237cf3300205303a973990ee6</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get CIS URL</description>
+        <internal_name>get_cis_url</internal_name>
+        <label_cache>[{"name":"{{action.car_insurance_service_sysid}}","label":"action➛Car Insurance service SysID","type":"action","ref":""},{"name":"{{step[020e57e7-0d2e-42df-b489-a29f47d7a16f].c}}","label":"step➛Script step➛c","type":"step","ref":""},{"name":"{{step[020e57e7-0d2e-42df-b489-a29f47d7a16f].ci}}","label":"step➛Script step➛ci","type":"step","ref":""},{"name":"{{step[020e57e7-0d2e-42df-b489-a29f47d7a16f].cis}}","label":"step➛Script step➛cis","type":"step","ref":""},{"name":"{{step[020e57e7-0d2e-42df-b489-a29f47d7a16f].cis_}}","label":"step➛Script step➛cis_","type":"step","ref":""},{"name":"{{step[020e57e7-0d2e-42df-b489-a29f47d7a16f].cis_u}}","label":"step➛Script step➛cis_u","type":"step","ref":""},{"name":"{{step[020e57e7-0d2e-42df-b489-a29f47d7a16f].cis_ur}}","label":"step➛Script step➛cis_ur","type":"step","ref":""},{"name":"{{step[020e57e7-0d2e-42df-b489-a29f47d7a16f].cis_url}}","label":"step➛Script step➛cis_url","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get CIS URL</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get CIS URL">a313f86237cf3300205303a973990eb1</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 16:10:42</sys_created_on>
+        <sys_id>a4b4b02637cf3300205303a973990eeb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get CIS URL</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_a4b4b02637cf3300205303a973990eeb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 16:10:43</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4b4b02637cf3300205303a973990eeb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a4b4b02637cf3300205303a973990eeb"/>
+    <sys_element_mapping action="delete_multiple" query="id=a4b4b02637cf3300205303a973990eeb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>car_insurance_service_url1</field>
+        <id>a4b4b02637cf3300205303a973990eeb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 16:10:43</sys_created_on>
+        <sys_id>f8b4f02637cf3300205303a973990e39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 16:10:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a4b4b02637cf3300205303a973990eeb</table>
+        <value>{{step[020e57e7-0d2e-42df-b489-a29f47d7a16f].cis_url}}</value>
+    </sys_element_mapping>
+</record_update>

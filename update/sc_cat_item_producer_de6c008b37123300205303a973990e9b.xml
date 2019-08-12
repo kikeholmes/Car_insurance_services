@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <active>true</active>
-        <availability>on_desktop</availability>
+        <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category/>
@@ -20,12 +20,12 @@
         <list_price>0</list_price>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
-        <meta/>
+        <meta>accident</meta>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Insurance Serivce</name>
+        <name>Insurance Service</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -60,14 +60,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-01 19:45:20</sys_created_on>
         <sys_id>de6c008b37123300205303a973990e9b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Insurance Serivce</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Insurance Service</sys_name>
         <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
         <sys_update_name>sc_cat_item_producer_de6c008b37123300205303a973990e9b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-01 19:45:20</sys_updated_on>
+        <sys_updated_on>2019-08-08 00:22:06</sys_updated_on>
         <table_name>x_359522_cis_car_insurance_service</table_name>
         <template/>
         <type>item</type>

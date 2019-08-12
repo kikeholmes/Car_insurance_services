@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan/>
+        <plan_id>ac0d78aa37cf3300205303a973990e0e</plan_id>
+        <snapshot>c2539ea637c37300205303a973990e80</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 23:04:15</sys_created_on>
+        <sys_id>5a539ea637c37300205303a973990ee5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>96539ea637c37300205303a973990ee3</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_5a539ea637c37300205303a973990ee5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 23:04:15</sys_updated_on>
+        <trigger display_value="">96539ea637c37300205303a973990ee3</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Notify agent assignment</description>
+        <internal_name>notify_agent_assignment</internal_name>
+        <label_cache>[{"name":"Updated_1.current.assigned_to.name","label":"Trigger➛Car Insurance Service Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Updated_1.current","label":"Trigger➛Car Insurance Service Record","reference":"x_359522_cis_car_insurance_service","reference_display":"Car Insurance Service","type":"reference","base_type":"reference"},{"name":"704d0b10-4263-4a75-a872-7591b8682268.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"704d0b10-4263-4a75-a872-7591b8682268.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
+        <master>true</master>
+        <name>Notify agent assignment</name>
+        <outputs/>
+        <parent_flow display_value="Notify agent assignment">ac0d78aa37cf3300205303a973990e0e</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 23:04:14</sys_created_on>
+        <sys_id>c2539ea637c37300205303a973990e80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notify agent assignment</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_c2539ea637c37300205303a973990e80</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 23:04:14</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c2539ea637c37300205303a973990e80"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c2539ea637c37300205303a973990e80"/>
+</record_update>

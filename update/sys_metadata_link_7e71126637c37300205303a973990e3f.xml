@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7671126637c37300205303a973990e3f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer decision_table.answer_table="sys_user_group" name="Otros servicios (Toreo)">c69f373137cbb300205303a973990e1e</answer>
+        <condition table="var__m_sys_decision_input_671c24ae378f3300205303a973990e66">u_cis_service_center=9a02272937723300205303a973990e11^u_cis_service_type=other^EQ<item display_table="x_359522_cis_service_center" display_value="Centro Toreo" endquery="false" field="u_cis_service_center" goto="false" newquery="false" operator="=" or="false" value="9a02272937723300205303a973990e11"/>
+            <item endquery="false" field="u_cis_service_type" goto="false" newquery="false" operator="=" or="false" value="other"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="CIS - Determine Assigment Group">671c24ae378f3300205303a973990e66</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_671c24ae378f3300205303a973990e66</input_table>
+        <label>Otros Toreo</label>
+        <order>0</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 22:56:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7671126637c37300205303a973990e3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 22:56:06</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 22:56:06</sys_created_on>
+        <sys_id>7e71126637c37300205303a973990e3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_metadata_link_7e71126637c37300205303a973990e3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 22:56:06</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

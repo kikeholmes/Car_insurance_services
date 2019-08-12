@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Determine CIS assignment group</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Service Center">a961033437433300205303a973990ec5</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Determine CIS assignment group</description>
+        <internal_name>determine_cis_assignment_group</internal_name>
+        <label_cache>[{"name":"subflow.cis.addres","label":"Input➛CIS record➛Address","reference":"","reference_display":"Address","type":"string","base_type":"string","parent_table_name":"x_359522_cis_car_insurance_service","column_name":"addres"},{"name":"subflow.cis.number","label":"Input➛CIS record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_359522_cis_car_insurance_service","column_name":"number"},{"name":"subflow.cis","label":"Input➛CIS record","reference":"x_359522_cis_car_insurance_service","reference_display":"Car Insurance Service","type":"reference","base_type":"reference","column_name":""},{"name":"8a5354e4-ec0c-44ae-a5c7-63da2e07d638.table_name","label":"1.2.1➛Car Insurance Service Table","reference":"x_359522_cis_car_insurance_service","reference_display":"Car Insurance Service","type":"table_name","base_type":"table_name"},{"name":"8a5354e4-ec0c-44ae-a5c7-63da2e07d638.record","label":"1.2.1➛Car Insurance Service Record","reference":"x_359522_cis_car_insurance_service","reference_display":"Car Insurance Service","type":"reference","base_type":"reference"},{"name":"871be15c-6c15-4918-8b2e-5956a63da765.answer","label":"1➛Group Record","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"subflow.cis.service_type","label":"Input➛CIS record➛Service type","reference":"x_359522_cis_car_insurance_service","reference_display":"Car Insurance Service","type":"reference","base_type":"reference","column_name":""},{"name":"subflow.cis.service_center","label":"Input➛CIS record➛Service center","reference":"x_359522_cis_car_insurance_service","reference_display":"Car Insurance Service","type":"reference","base_type":"reference","column_name":""},{"name":"0119097c-d332-44e2-9fe1-03f44182835e.car_insurance_service_url1","label":"1.2.2➛Car Insurance Service URL ","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>Determine CIS assignment group</name>
+        <outputs/>
+        <parent_flow display_value="Determine CIS assignment group">8770b46237cf3300205303a973990efb</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 16:41:02</sys_created_on>
+        <sys_id>68abb46a37cf3300205303a973990ed1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Determine CIS assignment group</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_68abb46a37cf3300205303a973990ed1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 16:41:02</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=68abb46a37cf3300205303a973990ed1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=68abb46a37cf3300205303a973990ed1"/>
+</record_update>

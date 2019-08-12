@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>41ca0f433be0030057a4a2e334efc474</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Determine CIS Final">73f6eae237077300205303a973990eed</flow>
+        <order>2.1.2</order>
+        <parent_ui_id>ca289857-3967-4790-a36a-f080d7684a79</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 00:45:03</sys_created_on>
+        <sys_id>766aa2a637077300205303a973990ea6</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_766aa2a637077300205303a973990ea6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:55:33</sys_updated_on>
+        <ui_id>1c0542ba-7f6a-4e2c-ab8c-f5d47f53edb4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=766aa2a637077300205303a973990ea6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>766aa2a637077300205303a973990ea6</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:09</sys_created_on>
+        <sys_id>198f8fee37477300205303a973990e16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:09</sys_updated_on>
+        <value>:cis_icon:</value>
+        <variable display_value="">d9ca0f433be0030057a4a2e334efc4a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>766aa2a637077300205303a973990ea6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 00:49:41</sys_created_on>
+        <sys_id>2e7beea637077300205303a973990e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 00:49:41</sys_updated_on>
+        <value>Car Insurance Service Bot</value>
+        <variable display_value="">2de6ea4b3ba0030057a4a2e334efc46c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>766aa2a637077300205303a973990ea6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:09</sys_created_on>
+        <sys_id>518f8fee37477300205303a973990e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:09</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">cdca0f433be0030057a4a2e334efc476</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>766aa2a637077300205303a973990ea6</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 00:49:41</sys_created_on>
+        <sys_id>6a7beea637077300205303a973990e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 00:49:41</sys_updated_on>
+        <value>:cis_icon:</value>
+        <variable display_value="">2de6ea4b3ba0030057a4a2e334efc483</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>766aa2a637077300205303a973990ea6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:09</sys_created_on>
+        <sys_id>9d8f8fee37477300205303a973990e16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:09</sys_updated_on>
+        <value>acoxpa_accidente</value>
+        <variable display_value="">85ca0f433be0030057a4a2e334efc49a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>766aa2a637077300205303a973990ea6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 00:49:41</sys_created_on>
+        <sys_id>a27beea637077300205303a973990e7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 00:49:41</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">59e6e24b3ba0030057a4a2e334efc4fe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>766aa2a637077300205303a973990ea6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:09</sys_created_on>
+        <sys_id>d98f8fee37477300205303a973990e16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:09</sys_updated_on>
+        <value>Car Insurance Service Bot</value>
+        <variable display_value="">41ca0f433be0030057a4a2e334efc48f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>766aa2a637077300205303a973990ea6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 00:49:41</sys_created_on>
+        <sys_id>ee7beea637077300205303a973990e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 00:49:41</sys_updated_on>
+        <value>acoxpa_accidente</value>
+        <variable display_value="">25e6ea4b3ba0030057a4a2e334efc478</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=766aa2a637077300205303a973990ea6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>766aa2a637077300205303a973990ea6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:09</sys_created_on>
+        <sys_id>958f8fee37477300205303a973990e16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>766aa2a637077300205303a973990ea6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 00:49:41</sys_created_on>
+        <sys_id>e67beea637077300205303a973990e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 00:49:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_icon</field>
+        <id>766aa2a637077300205303a973990ea6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:09</sys_created_on>
+        <sys_id>998f8fee37477300205303a973990e15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_icon</field>
+        <id>766aa2a637077300205303a973990ea6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 00:49:41</sys_created_on>
+        <sys_id>ea7beea637077300205303a973990e79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 00:49:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>766aa2a637077300205303a973990ea6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:09</sys_created_on>
+        <sys_id>d18f8fee37477300205303a973990e16</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:49:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value>New Car Insurance Service:  {{subflow.cis_record.number}} on "{{subflow.cis_record.addres}}", link to the service: {{5b4eb461-078f-4a4e-87ce-8da16bccfac8.car_insurance_service_url1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>766aa2a637077300205303a973990ea6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 00:49:41</sys_created_on>
+        <sys_id>267beea637077300205303a973990e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 00:49:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
+        <value>New Car Insurance Service:  {{subflow.cis_record.number}} on "{{subflow.cis_record.addres}}", link to the service: {{700c2831-28ba-40cc-a197-4f9debcb900a.car_insurance_service_url1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_username</field>
+        <id>766aa2a637077300205303a973990ea6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:09</sys_created_on>
+        <sys_id>5d8f8fee37477300205303a973990e15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_username</field>
+        <id>766aa2a637077300205303a973990ea6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 00:49:41</sys_created_on>
+        <sys_id>ae7beea637077300205303a973990e79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 00:49:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>766aa2a637077300205303a973990ea6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:09</sys_created_on>
+        <sys_id>118f8fee37477300205303a973990e16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>766aa2a637077300205303a973990ea6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 00:49:41</sys_created_on>
+        <sys_id>627beea637077300205303a973990e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 00:49:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

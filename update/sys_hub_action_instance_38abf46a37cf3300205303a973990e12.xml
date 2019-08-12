@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get CIS URL">a4b4b02637cf3300205303a973990eeb</action_type>
+        <action_type_parent display_value="Get CIS URL">a313f86237cf3300205303a973990eb1</action_type_parent>
+        <comment/>
+        <compiled_snapshot>a4b4b02637cf3300205303a973990eeb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Determine CIS assignment group">68abb46a37cf3300205303a973990ed1</flow>
+        <order>1.2.2</order>
+        <parent_ui_id>1bd3d4bf-f4c5-4b32-81bc-01c0dfd34cb9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 16:41:03</sys_created_on>
+        <sys_id>38abf46a37cf3300205303a973990e12</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_38abf46a37cf3300205303a973990e12</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 16:41:03</sys_updated_on>
+        <ui_id>0119097c-d332-44e2-9fe1-03f44182835e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=38abf46a37cf3300205303a973990e12"/>
+    <sys_element_mapping action="delete_multiple" query="id=38abf46a37cf3300205303a973990e12"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>car_insurance_service_sysid</field>
+        <id>38abf46a37cf3300205303a973990e12</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 16:41:03</sys_created_on>
+        <sys_id>7cabf46a37cf3300205303a973990e16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 16:41:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a4b4b02637cf3300205303a973990eeb</table>
+        <value>{{subflow.cis}}</value>
+    </sys_element_mapping>
+</record_update>

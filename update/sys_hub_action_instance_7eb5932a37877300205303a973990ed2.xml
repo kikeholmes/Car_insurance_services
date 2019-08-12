@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Determine CIS Final">7b8f032237877300205303a973990ecf</flow>
+        <order>2.11.1</order>
+        <parent_ui_id>ed6a24c9-c50d-4343-84a3-11c3a3f01f5f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:54:17</sys_created_on>
+        <sys_id>7eb5932a37877300205303a973990ed2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_7eb5932a37877300205303a973990ed2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:54:27</sys_updated_on>
+        <ui_id>ee8524ce-c5a5-428f-8da8-689d607325a4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7eb5932a37877300205303a973990ed2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7eb5932a37877300205303a973990ed2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:54:17</sys_created_on>
+        <sys_id>32b5932a37877300205303a973990ed8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:54:17</sys_updated_on>
+        <value>x_359522_cis_car_insurance_service</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7eb5932a37877300205303a973990ed2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7eb5932a37877300205303a973990ed2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:54:17</sys_created_on>
+        <sys_id>fab5932a37877300205303a973990ed7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:54:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.cis_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7eb5932a37877300205303a973990ed2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:54:17</sys_created_on>
+        <sys_id>3ab5932a37877300205303a973990ed7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:54:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7eb5932a37877300205303a973990ed2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:54:17</sys_created_on>
+        <sys_id>beb5932a37877300205303a973990ed7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:54:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>assignment_group={{2b0bfe4f-78eb-450f-b042-06f0c145f4ec.answer}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -9,14 +9,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-02 17:43:59</sys_created_on>
         <sys_id>c8b3e8d9378f3300205303a973990e41</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>record_create</sys_name>
         <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
         <sys_update_name>sys_hub_trigger_instance_c8b3e8d9378f3300205303a973990e41</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-02 19:24:58</sys_updated_on>
+        <sys_updated_on>2019-08-07 14:33:41</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get CIS URL">a4b4b02637cf3300205303a973990eeb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>a4b4b02637cf3300205303a973990eeb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Determine CIS Final">73f6eae237077300205303a973990eed</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 02:53:13</sys_created_on>
+        <sys_id>98c703aa37477300205303a973990e8e</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_98c703aa37477300205303a973990e8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:55:32</sys_updated_on>
+        <ui_id>5b4eb461-078f-4a4e-87ce-8da16bccfac8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=98c703aa37477300205303a973990e8e"/>
+    <sys_element_mapping action="delete_multiple" query="id=98c703aa37477300205303a973990e8e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>car_insurance_service_sysid</field>
+        <id>98c703aa37477300205303a973990e8e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 02:53:13</sys_created_on>
+        <sys_id>dcc703aa37477300205303a973990e92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 02:53:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a313f86237cf3300205303a973990eb1</table>
+        <value>{{subflow.cis_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>car_insurance_service_sysid</field>
+        <id>98c703aa37477300205303a973990e8e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:09</sys_created_on>
+        <sys_id>d18f4fee37477300205303a973990ef3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a4b4b02637cf3300205303a973990eeb</table>
+        <value>{{subflow.cis_record}}</value>
+    </sys_element_mapping>
+</record_update>

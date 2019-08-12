@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_subflow_plan">
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@1c7e75c</plan>
+        <plan_id display_value="Determine CIS assignment group">8770b46237cf3300205303a973990efb</plan_id>
+        <snapshot>68abb46a37cf3300205303a973990ed1</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 16:41:03</sys_created_on>
+        <sys_id>81abf46a37cf3300205303a973990e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8770b46237cf3300205303a973990efb</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_flow_subflow_plan_81abf46a37cf3300205303a973990e43</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 16:41:03</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

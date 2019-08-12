@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Determine CIS Final">73f6eae237077300205303a973990eed</flow>
+        <order>2.10.1</order>
+        <parent_ui_id>154f15c0-c741-4970-847e-2311d43b2c59</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 02:53:18</sys_created_on>
+        <sys_id>69c743aa37477300205303a973990eb8</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_69c743aa37477300205303a973990eb8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:55:37</sys_updated_on>
+        <ui_id>79e147a2-4301-4e0a-ab01-41ead0caf61c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=69c743aa37477300205303a973990eb8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>69c743aa37477300205303a973990eb8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 02:53:18</sys_created_on>
+        <sys_id>29c743aa37477300205303a973990ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 02:53:18</sys_updated_on>
+        <value>x_359522_cis_car_insurance_service</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>69c743aa37477300205303a973990eb8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:14</sys_created_on>
+        <sys_id>ea8fcfee37477300205303a973990e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:14</sys_updated_on>
+        <value>x_359522_cis_car_insurance_service</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=69c743aa37477300205303a973990eb8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>69c743aa37477300205303a973990eb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 02:53:18</sys_created_on>
+        <sys_id>e1c743aa37477300205303a973990ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 02:53:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{subflow.cis_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>69c743aa37477300205303a973990eb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:14</sys_created_on>
+        <sys_id>a68fcfee37477300205303a973990e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.cis_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>69c743aa37477300205303a973990eb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 02:53:18</sys_created_on>
+        <sys_id>21c743aa37477300205303a973990ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 02:53:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>69c743aa37477300205303a973990eb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:14</sys_created_on>
+        <sys_id>e28fcfee37477300205303a973990e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>69c743aa37477300205303a973990eb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 02:53:18</sys_created_on>
+        <sys_id>a5c743aa37477300205303a973990ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 02:53:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>assignment_group={{2b0bfe4f-78eb-450f-b042-06f0c145f4ec.answer}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>69c743aa37477300205303a973990eb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 03:27:14</sys_created_on>
+        <sys_id>6a8fcfee37477300205303a973990e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:27:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>assignment_group={{2b0bfe4f-78eb-450f-b042-06f0c145f4ec.answer}}</value>
+    </sys_element_mapping>
+</record_update>

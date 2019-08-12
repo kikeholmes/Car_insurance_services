@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base">
+    <m2m_sp_portal_knowledge_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <kb_knowledge_base display_value="Car Insurance Services">2cb9e73a3783b300205303a973990e7c</kb_knowledge_base>
+        <order>100</order>
+        <sp_portal display_value="Car Insurance Services">cf1b9c8d37123300205303a973990e86</sp_portal>
+        <sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-08 00:35:43</sys_created_on>
+        <sys_id>f3d1b33637c3b300205303a973990e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car Insurance Services.Car Insurance Services</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>m2m_sp_portal_knowledge_base_f3d1b33637c3b300205303a973990e7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-08 00:35:43</sys_updated_on>
+    </m2m_sp_portal_knowledge_base>
+</record_update>

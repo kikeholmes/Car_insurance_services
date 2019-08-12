@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_block">
+    <sys_hub_flow_block action="INSERT_OR_UPDATE">
+        <label_cache/>
+        <name/>
+        <sys_class_name>sys_hub_flow_block</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 00:45:05</sys_created_on>
+        <sys_id>936ae2a637077300205303a973990e20</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Insurance Services" source="x_359522_cis">210ff69237863300205303a973990e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">210ff69237863300205303a973990e6c</sys_scope>
+        <sys_update_name>sys_hub_flow_block_936ae2a637077300205303a973990e20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 03:55:47</sys_updated_on>
+    </sys_hub_flow_block>
+</record_update>
